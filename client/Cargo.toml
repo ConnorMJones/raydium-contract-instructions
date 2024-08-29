@@ -9,9 +9,9 @@ path = "src/main.rs"
 
 [dependencies]
 raydium-contract-instructions = { path = "../lib"}
-spl-token = { version = "3.2.0", features = ["no-entrypoint"], default-features = false }
-spl-associated-token-account = "1.0.3"
-solana-client = "1.9.5"
-solana-sdk = "1.9.5"
+spl-token = { version = "3.4.0", features = ["no-entrypoint"], default-features = false }
+spl-associated-token-account = "1.1.0"
+solana-client = { git = "https://github.com/yihau/solana.git", version = "2.1.0", rev = "82024a70a05fedc09d7f0f5ee11d4203ed685e41" }
+solana-sdk = { git = "https://github.com/yihau/solana.git", version = "2.1.0", rev = "82024a70a05fedc09d7f0f5ee11d4203ed685e41" }
 anyhow = "1.0.53"
 
